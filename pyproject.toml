@@ -1,0 +1,26 @@
+[project]
+name = "llm-paper-summarizer"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "black>=25.1.0",
+    "chromadb>=1.0.20",
+    "faiss-cpu>=1.12.0",
+    "fastapi>=0.116.1",
+    "jupyter>=1.1.1",
+    "langchain>=0.3.27",
+    "llama-index>=0.13.4",
+    "pdfplumber>=0.11.7",
+    "pre-commit>=4.3.0",
+    "pydantic>=2.11.7",
+    "pypdf2>=3.0.1",
+    "pytest>=8.4.1",
+    "python-dotenv>=1.1.1",
+    "ruff>=0.12.11",
+    "sentence-transformers>=5.1.0",
+    "streamlit>=1.49.1",
+    "transformers>=4.56.0",
+    "uvicorn[standard]>=0.35.0",
+]
