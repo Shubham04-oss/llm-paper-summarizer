@@ -1,6 +1,6 @@
 import streamlit as st
-from src.pipeline.pdf_io import extract_text
-from src.pipeline.summarize import summarize_text
+from pdf_io import extract_text
+from summarize import summarize_text
 
 # Or, if 'summarize_text' is in a different location, update the import path accordingly.
 
