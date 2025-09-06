@@ -1,0 +1,170 @@
+.summary-box {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(60,60,60,0.10);
+  color: #333;
+  padding: 1.5em 2em;
+  margin-bottom: 2em;
+  width: 100%;
+  max-width: 700px;
+}
+
+.summary-box h3 {
+  margin-top: 0;
+  color: #3a86ff;
+  font-size: 1.3em;
+}
+
+.summary-content {
+  min-height: 80px;
+  padding: 0.5em 0;
+}
+
+.summary-placeholder {
+  color: #888;
+  font-style: italic;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+
+.main-layout {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+.top-bar {
+  width: 100%;
+  background: #3a3f58;
+  color: #fff;
+  padding: 1.2em 2em;
+  box-shadow: 0 2px 8px rgba(60,60,60,0.08);
+  display: flex;
+  align-items: center;
+}
+
+.app-title {
+  font-size: 1.7em;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: #ffd166;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 2em 3em;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.project-desc {
+  margin-bottom: 2em;
+  background: #fff;
+  border-radius: 10px;
+  padding: 1.5em 2em;
+  box-shadow: 0 2px 8px rgba(60,60,60,0.10);
+  color: #333;
+}
+
+.project-desc h2 {
+  color: #3a3f58;
+  margin-bottom: 0.5em;
+}
+
+.hobby-note {
+  margin-top: 1em;
+  font-size: 1em;
+  color: #888;
+}
+
+.demo-section {
+  margin-top: 1em;
+}
+
+button {
+  background: #3a86ff;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 0.7em 1.5em;
+  font-size: 1em;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+button:hover {
+  background: #ffd166;
+  color: #3a3f58;
+}
+
+.card {
+  background: rgba(255,255,255,0.25);
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+  padding: 2em;
+  margin-bottom: 1.5em;
+  color: #222;
+}
+
+h1 {
+  font-family: 'Georgia', serif;
+  font-size: 2.8em;
+  font-weight: 700;
+  margin-bottom: 0.5em;
+  color: #1a1a1a;
+  letter-spacing: 1px;
+}
+
+.read-the-docs {
+  color: #555;
+  font-size: 1.1em;
+  margin-top: 1.5em;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
